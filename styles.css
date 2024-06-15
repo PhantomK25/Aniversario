@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #8a2be2; /* Morado */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e6e6fa; /* Lavanda */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.quote-container {
+    background-color: #e6e6fa; /* Lavanda */
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8a2be2; /* Morado */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilo para los GIFs */
+.gif-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gif-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilo para la imagen grande de la sección de felicidad */
+.happiness-image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.happiness-image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Borde redondeado opcional */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
